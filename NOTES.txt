@@ -1,0 +1,38 @@
+Diseño
+
+Tablero (clase)
+    Obstáculos
+    Campo vacio
+    Reinicio del tablero
+    Detección de eventos
+        Movimiento de pacman por usuario
+        Obtener una Galleta
+        Obtener un premio
+        Fantasma mata a pacman
+        Pacman encierra a fantasma
+
+Objetos (clase)
+    Movibles (clase)
+        Pacman
+            Detecta keys del usuario
+        Fantasmas
+            Detección de Obstáculos y cambio de dirección
+            Inercia del movimiento
+    Estáticos
+        Premios
+        Galletas
+        Estrella (que permite a pacman encerrar el fantasma)
+
+Juego
+    Flujo
+        Reinicio del Juego
+        Salir del juego
+    Movimientos autómatico para Fantasmas
+        Velocidad de Movimiento
+    Puntaje
+        Acumulación de Puntaje
+    Eventos aleatorios
+        Se muestra un nuevo premio por algunos segundos
+        Se muestra una estrella por algunos segundos
+
+
